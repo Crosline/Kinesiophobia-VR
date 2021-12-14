@@ -684,7 +684,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.016601562, y: 0.0126953125, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.011230469, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1127,7 +1127,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 659.9, y: 158}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.22558594, y: 0.5078125, z: 0, w: 0}
+  savedTextUV0: {x: 0.34765625, y: 0.036132812, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &319570127
 MonoBehaviour:
@@ -1694,7 +1694,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1323.9701, y: 140.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.057617188, y: 0.31591797, z: 0, w: 0}
+  savedTextUV0: {x: 0.8720703, y: 0.080078125, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &391196031
 MonoBehaviour:
@@ -1960,7 +1960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 116662, guid: 132e7f65a3fd16f48bb0cfcc88ef5e27, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 189006, guid: 132e7f65a3fd16f48bb0cfcc88ef5e27, type: 3}
       propertyPath: m_Name
@@ -4125,7 +4125,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.5605469, y: 0.34179688, z: 0, w: 0}
+  savedTextUV0: {x: 0.08984375, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -4355,7 +4355,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.78125, y: 0.53808594, z: 0, w: 0}
+  savedTextUV0: {x: 0.028320312, y: 0.34179688, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -4744,7 +4744,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 955.10004, y: 207.8}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.4609375, y: 0.6401367, z: 0, w: 0}
+  savedTextUV0: {x: 0.017578125, y: 0.73339844, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1272236470
 MonoBehaviour:
@@ -5572,7 +5572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1527928642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6952,7 +6952,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1323.9701, y: 140.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.70214844, y: 0.19677734, z: 0, w: 0}
+  savedTextUV0: {x: 0.7246094, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1784505625
 MonoBehaviour:
@@ -7259,7 +7259,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.18066406, y: 0.27490234, z: 0, w: 0}
+  savedTextUV0: {x: 0.53515625, y: 0.04638672, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1827447143
 MonoBehaviour:
