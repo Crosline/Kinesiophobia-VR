@@ -2238,6 +2238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0877e9d384f9b714f8acf50305c514cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  branch: {fileID: 0}
+  gender: {fileID: 0}
+  session: {fileID: 0}
 --- !u!114 &1214101036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4879,6 +4882,18 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b99ff13895945b642a470cc57ddef3cf, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b99ff13895945b642a470cc57ddef3cf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b99ff13895945b642a470cc57ddef3cf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b99ff13895945b642a470cc57ddef3cf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b99ff13895945b642a470cc57ddef3cf, type: 3}
       propertyPath: m_LocalPosition.x
