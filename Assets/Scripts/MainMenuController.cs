@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour {
 
     public GameObject menuPanel;
+    public GameObject startPanel;
     public GameObject settingsPanel;
     public GameObject adminPanel;
 
@@ -25,6 +26,10 @@ public class MainMenuController : MonoBehaviour {
         SetMasterVolume(masterVolume);
         settingsPanel.SetActive(false);
 
+    }
+    public void OpenStart(bool isOpen) {
+        startPanel.SetActive(isOpen);
+        menuPanel.SetActive(!isOpen);
     }
 
     public void StartGame() {
