@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class SurveyManager : MonoBehaviour
 {
-    public List<int> surveyAnswers = new List<int>();
+    public List<string> surveyAnswers = new List<string>();
     public List<string> surveyQuestions;
     public List<Text> questionTexts;
+    public SendToGoogle stg;
 
     int count = 0;
     // Start is called before the first frame update
@@ -17,10 +18,16 @@ public class SurveyManager : MonoBehaviour
     
     public void NumberTapped(int a) {
         if(count > questionTexts.Count) {
-            
+            questionTexts[count].gameObject.SetActive(false);
+            if (stg == null) {
+                stg = GetComponent<SendToGoogle>();
+            }
+            stg.soru1 = surveyAnswers[0];
+            stg.soru2 = surveyAnswers[1];
+            stg.Send();
         } else {
             questionTexts[count].gameObject.SetActive(false);
-            surveyAnswers.Add(a);
+            surveyAnswers.Add(a.ToString());
             Debug.Log("Question #" + count + " : " + surveyAnswers[count]);
             count++;
             questionTexts[count].gameObject.SetActive(true);
@@ -37,9 +44,4 @@ public class SurveyManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

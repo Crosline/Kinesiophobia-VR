@@ -1118,7 +1118,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.80371094, y: 0.10595703, z: 0, w: 0}
+  savedTextUV0: {x: 0.1796875, y: 0.28320312, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1751,7 +1751,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 659.9, y: 158}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.84472656, y: 0.036132812, z: 0, w: 0}
+  savedTextUV0: {x: 0.14453125, y: 0.25927734, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &319570127
 MonoBehaviour:
@@ -6321,7 +6321,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.04638672, y: 0.33496094, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.013671875, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -6697,7 +6697,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.06933594, z: 0, w: 0}
+  savedTextUV0: {x: 0.001953125, y: 0.3076172, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -11238,6 +11238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1831730046}
+  - component: {fileID: 1831730047}
   m_Layer: 0
   m_Name: VideoManager
   m_TagString: Untagged
@@ -11259,6 +11260,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1831730047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831730045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f7b2ae9372fc4eb7aab9519bfbb18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volleyballFemale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  volleyballMale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  basketballFemale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  basketballMale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  footballFemale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  footballMale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  b: 0
+  g: 0
+  s: 0
 --- !u!1 &1838235620
 GameObject:
   m_ObjectHideFlags: 0

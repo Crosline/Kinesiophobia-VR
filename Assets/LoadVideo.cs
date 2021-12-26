@@ -1,5 +1,4 @@
 using System.Collections;
-using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
@@ -36,7 +35,7 @@ public class LoadVideo : MonoBehaviour {
         blockCanvas.SetActive(false);
         videoPlayer.Play();
         yield return new WaitUntil(() => videoPlayer.isPaused);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
 
 
     }
