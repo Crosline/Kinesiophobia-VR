@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/360Video.unity
     guid: 77171f4d172b2cf49aa03ca5dc27c1d6
+  - enabled: 1
+    path: Assets/Scenes/Survey.unity
+    guid: 107a4e93b8411d5479197b1d8daa25b4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b96895060188f2d43b39ea6ec989d778, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 69d35535c15b281438ca0646f253f75d, type: 2}
