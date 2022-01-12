@@ -29,6 +29,21 @@ public class AdminPanelController : MonoBehaviour {
 		
 		UpdateSelection();
 	}
+	
+	void OnEnable() {
+		PlayerPrefs.SetInt("Branch", 0);
+		PlayerPrefs.SetInt("Gender", 0);
+		PlayerPrefs.SetInt("Session", 0);
+		
+		//simpleFileBrowserCanvas.SetActive(true);
+		if (simpleFileBrowserCanvas == null) {
+			simpleFileBrowserCanvas = GameObject.Find("SimpleFileBrowserCanvas");
+			simpleFileBrowserCanvas = FindObjectOfType<FileBrowser>().gameObject;
+		}
+		simpleFileBrowserCanvas.transform.position = new Vector3(170200, 740000, 0);
+		
+		UpdateSelection();
+	}
 
 	public void UpdateSelection() {
 		int b, g, s;

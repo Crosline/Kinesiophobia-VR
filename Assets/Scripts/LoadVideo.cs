@@ -9,6 +9,8 @@ public class LoadVideo : MonoBehaviour {
     private GameObject blockCanvas;
     [SerializeField]
     private VideoPlayer videoPlayer;
+	
+	private bool isPlaying = false;
     //private VideoClip video;
 
     // Start is called before the first frame update
@@ -21,6 +23,15 @@ public class LoadVideo : MonoBehaviour {
         }
         StartCoroutine(deneme());
     }
+	
+	void Update() {
+		
+		if (isPlaying) return;
+		
+		if (Input.GetButton("Submit")) {
+        SceneManager.LoadScene(0);
+		}
+	}
 
 
     public IEnumerator deneme() {
@@ -32,6 +43,7 @@ public class LoadVideo : MonoBehaviour {
         videoPlayer.Prepare();
         yield return new WaitUntil(() => videoPlayer.isPrepared);
         yield return new WaitForSeconds(10f);
+		isPlaying = true;
         blockCanvas.SetActive(false);
         videoPlayer.Play();
         yield return new WaitUntil(() => videoPlayer.isPaused);

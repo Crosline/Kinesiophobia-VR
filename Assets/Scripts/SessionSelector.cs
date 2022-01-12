@@ -5,6 +5,12 @@ using UnityEngine.UI;
 
 public class SessionSelector : MonoBehaviour
 {
+	void Start() {
+		VideoManager.instance.b = 0;
+		VideoManager.instance.g = 0;
+		VideoManager.instance.s = 0;
+	}
+	
     public void SetBranch(Dropdown dropdown) {
         VideoManager.instance.b = dropdown.value;
     }
