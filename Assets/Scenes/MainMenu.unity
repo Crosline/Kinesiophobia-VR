@@ -986,7 +986,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.091796875, y: 0.10107422, z: 0, w: 0}
+  savedTextUV0: {x: 0.5332031, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1851,7 +1851,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 659.9, y: 158}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.3359375, y: 0.31054688, z: 0, w: 0}
+  savedTextUV0: {x: 0.48242188, y: 0.2084961, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &319570127
 MonoBehaviour:
@@ -2619,8 +2619,8 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
-  m_InputActionsPerSecond: 500
-  m_RepeatDelay: 0.1
+  m_InputActionsPerSecond: 1000
+  m_RepeatDelay: 0.05
   m_ForceModuleActive: 1
   controlMethod: 5
   submitButtonName: Submit
@@ -6887,7 +6887,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.27441406, y: 0.40673828, z: 0, w: 0}
+  savedTextUV0: {x: 0.26953125, y: 0.34521484, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -7283,7 +7283,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.51171875, y: 0.42871094, z: 0, w: 0}
+  savedTextUV0: {x: 0.4921875, y: 0.36669922, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -11094,7 +11094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000010383356806, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0013427734
+      value: 0.0037841797
       objectReference: {fileID: 0}
     - target: {fileID: 224000011063755118, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11122,7 +11122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000012931849942, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.006591797
+      value: 0.0031738281
       objectReference: {fileID: 0}
     - target: {fileID: 224000013440901968, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
