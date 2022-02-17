@@ -1977,6 +1977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockCanvas: {fileID: 2036371934}
   videoPlayer: {fileID: 1246412952}
+  flatVideoPlayer: {fileID: 412600236}
 --- !u!82 &1246412955
 AudioSource:
   m_ObjectHideFlags: 0
