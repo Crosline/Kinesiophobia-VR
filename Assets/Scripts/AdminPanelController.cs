@@ -82,7 +82,7 @@ public class AdminPanelController : MonoBehaviour {
 		UpdateSelection();
 	}
 
-	public void SelectVideo() {
+	public void SelectVideo(int videoType) {
 		
 		//FileBrowser.SetFilters( true, new FileBrowser.Filter( "Videos", ".mp4", ".mkv" ));
 		FileBrowser.SetDefaultFilter( ".mp4" );
@@ -94,10 +94,10 @@ public class AdminPanelController : MonoBehaviour {
 			}
 		}, "Seans videosu seçin", "video/mp4");*/
 
-		StartCoroutine(ShowLoadDialogCoroutine());
+		StartCoroutine(ShowLoadDialogCoroutine(videoType));
 	}
 	
-	IEnumerator ShowLoadDialogCoroutine()
+	IEnumerator ShowLoadDialogCoroutine(int videoType)
 	{
 		// Show a load file dialog and wait for a response from user
 		// Load file/folder: both, Allow multiple selection: true
@@ -144,21 +144,21 @@ public class AdminPanelController : MonoBehaviour {
 				s = PlayerPrefs.GetInt("Session", 0);
 				if (b == 0) {
 					if (g == 0) { //football male 5
-						VideoManager.instance.UpdateVideos(5, s, path);
+						VideoManager.instance.UpdateVideos(5, s, path, videoType);
 					} else { //football female 4
-						VideoManager.instance.UpdateVideos(4, s, path);
+						VideoManager.instance.UpdateVideos(4, s, path, videoType);
 					}
 				} else if (b == 1) {
 					if (g == 0) {//volleyball male 1
-						VideoManager.instance.UpdateVideos(1, s, path);
+						VideoManager.instance.UpdateVideos(1, s, path, videoType);
 					} else {//volleyball female 0
-						VideoManager.instance.UpdateVideos(0, s, path);
+						VideoManager.instance.UpdateVideos(0, s, path, videoType);
 					}
 				} else if (b == 2) {
 					if (g == 0) {//basketball male 3
-						VideoManager.instance.UpdateVideos(3, s, path);
+						VideoManager.instance.UpdateVideos(3, s, path, videoType);
 					} else {//basketball female 2
-						VideoManager.instance.UpdateVideos(2, s, path);
+						VideoManager.instance.UpdateVideos(2, s, path, videoType);
 					}
 				}
 				

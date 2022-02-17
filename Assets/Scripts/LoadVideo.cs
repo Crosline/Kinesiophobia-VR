@@ -9,8 +9,13 @@ public class LoadVideo : MonoBehaviour {
     private GameObject blockCanvas;
     [SerializeField]
     private VideoPlayer videoPlayer;
-	
-	private bool isPlaying = false;
+    [SerializeField]
+    private VideoPlayer flatVideoPlayer;
+
+    private bool _isPlaying = false;
+
+
+    private bool _flatEnabled = false;
     //private VideoClip video;
 
     // Start is called before the first frame update
@@ -26,26 +31,30 @@ public class LoadVideo : MonoBehaviour {
 	
 	void Update() {
 		
-		if (isPlaying) return;
+		if (_isPlaying) return;
 		
-		if (Input.GetButton("Submit")) {
-        SceneManager.LoadScene(0);
-		}
+		if (Input.GetButtonDown("Submit")) {
+            _flatEnabled = !_flatEnabled;
+
+            flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
+        }
 	}
 
 
+
     public IEnumerator deneme() {
-        Debug.Log(videoPlayer.url);
-        //videoPlayer.url = "D:" + Path.DirectorySeparatorChar + "Downloads" + Path.DirectorySeparatorChar + "1.mp4";
-        //deneme works
-        videoPlayer.url = VideoManager.instance.GetSelectedVideo();
-        Debug.Log(videoPlayer.url);
+        videoPlayer.url = VideoManager.instance.GetSelectedVideo(0);
+        flatVideoPlayer.url = VideoManager.instance.GetSelectedVideo(1);
+
         videoPlayer.Prepare();
+        flatVideoPlayer.Prepare();
         yield return new WaitUntil(() => videoPlayer.isPrepared);
         yield return new WaitForSeconds(10f);
-		isPlaying = true;
+		_isPlaying = true;
         blockCanvas.SetActive(false);
         videoPlayer.Play();
+        flatVideoPlayer.Play();
+        flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
         yield return new WaitUntil(() => videoPlayer.isPaused);
         SceneManager.LoadScene(2);
 
