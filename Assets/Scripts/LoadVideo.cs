@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
@@ -31,20 +32,22 @@ public class LoadVideo : MonoBehaviour {
 	
 	void Update() {
 		
-		if (_isPlaying) return;
-		
-		if (Input.GetButtonDown("Submit")) {
-            _flatEnabled = !_flatEnabled;
+		if (!_isPlaying) return;
 
-            flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
+        if (OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.One))
+        {
+            ReLoadVideo();
         }
+
 	}
 
 
 
     public IEnumerator deneme() {
         videoPlayer.url = VideoManager.instance.GetSelectedVideo(0);
+        Debug.Log(VideoManager.instance.GetSelectedVideo(0));
         flatVideoPlayer.url = VideoManager.instance.GetSelectedVideo(1);
+        Debug.Log(VideoManager.instance.GetSelectedVideo(1));
 
         videoPlayer.Prepare();
         flatVideoPlayer.Prepare();
@@ -59,5 +62,18 @@ public class LoadVideo : MonoBehaviour {
         SceneManager.LoadScene(2);
 
 
+    }
+
+
+    public void ReLoadVideo(InputAction.CallbackContext context)
+    {
+        ReLoadVideo();
+    }
+
+    private void ReLoadVideo()
+    {
+        _flatEnabled = !_flatEnabled;
+
+        flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
     }
 }

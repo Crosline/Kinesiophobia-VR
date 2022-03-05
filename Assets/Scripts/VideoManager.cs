@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
 
-public class VideoManager : MonoBehaviour {
+public class VideoManager : MonoBehaviour
+{
 
 
     public static VideoManager instance;
@@ -30,17 +31,21 @@ public class VideoManager : MonoBehaviour {
     public int g = 0;
     public int s = 0;
 
-    void Awake() {
-        if (instance != null && instance != this) {
+    void Awake()
+    {
+        if (instance != null && instance != this)
+        {
             Destroy(this.gameObject);
-        } else {
+        }
+        else
+        {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
 
-            GetAllVideos();
         }
     }
-    private void GetAllVideos() {
+    private void GetAllVideos()
+    {
         volleyballFemale = PlayerPrefsX.GetStringArray("VolleyballFemale", "", 6);
         volleyballMale = PlayerPrefsX.GetStringArray("VolleyballMale", "", 6);
 
@@ -61,87 +66,166 @@ public class VideoManager : MonoBehaviour {
         footballFemaleFlat = PlayerPrefsX.GetStringArray("FootballFemaleFlat", "", 6);
         footballMaleFlat = PlayerPrefsX.GetStringArray("FootballMaleFlat", "", 6);
     }
-    public void UpdateVideos(int s, int i, String path, int videoType = 0) {
-        if (s == 0) {
-            volleyballFemale[i] = path;
+    public void UpdateVideos(int s, int i, String path, int videoType = 0)
+    {
+
+        GetAllVideos();
+        if (s == 0)
+        {
             if (videoType == 0)
+            {
                 PlayerPrefsX.SetStringArray("VolleyballFemale", volleyballFemale);
+                volleyballFemale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("VolleyballFemaleFlat", volleyballFemaleFlat);
-        } else if (s == 1) {
-            volleyballMale[i] = path;
+                volleyballFemaleFlat[i] = path;
+            }
+        }
+        else if (s == 1)
+        {
             if (videoType == 0)
+            {
                 PlayerPrefsX.SetStringArray("VolleyballMale", volleyballMale);
+                volleyballMale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("VolleyballMaleFlat", volleyballMaleFlat);
+                volleyballMaleFlat[i] = path;
+            }
 
-        } else if (s == 2) {
-            basketballFemale[i] = path;
+        }
+        else if (s == 2)
+        {
             if (videoType == 0)
+            {
                 PlayerPrefsX.SetStringArray("BasketballFemale", basketballFemale);
+                basketballFemale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("BasketballFemaleFlat", basketballFemaleFlat);
-        } else if (s == 3) {
-            basketballMale[i] = path;
+                basketballFemaleFlat[i] = path;
+            }
+        }
+        else if (s == 3)
+        {
             if (videoType == 0)
+            {
                 PlayerPrefsX.SetStringArray("BasketballMale", basketballMale);
+                basketballMale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("BasketballMaleFlat", basketballMaleFlat);
+                basketballMaleFlat[i] = path;
+            }
 
-        } else if (s == 4) {
-            footballFemale[i] = path;
+        }
+        else if (s == 4)
+        {
             if (videoType == 0)
+            {
                 PlayerPrefsX.SetStringArray("FootballFemale", footballFemale);
+                footballFemale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("FootballFemaleFlat", footballFemaleFlat);
-        } else if (s == 5) {
-            footballMale[i] = path;
+                footballFemaleFlat[i] = path;
+            }
+        }
+        else if (s == 5)
+        {
             if (videoType == 0)
+            {
+
                 PlayerPrefsX.SetStringArray("FootballMale", footballMale);
+                footballMale[i] = path;
+            }
             else
+            {
                 PlayerPrefsX.SetStringArray("FootballMaleFlat", footballMaleFlat);
+                footballMaleFlat[i] = path;
+            }
         }
 
     }
 
-    public string GetSelectedVideo(int videoType = 0) {
-        if (videoType == 0) {
-            if (b == 0) {
-                if (g == 0) { //football male 5
+    public string GetSelectedVideo(int videoType = 0)
+    {
+
+        GetAllVideos();
+        if (videoType == 0)
+        {
+            if (b == 0)
+            {
+                if (g == 0)
+                { //football male 5
                     selectedVideo = footballMale[s];
-                } else { //football female 4
+                }
+                else
+                { //football female 4
                     selectedVideo = footballFemale[s];
                 }
-            } else if (b == 1) {
-                if (g == 0) {//volleyball male 1
+            }
+            else if (b == 1)
+            {
+                if (g == 0)
+                {//volleyball male 1
                     selectedVideo = volleyballMale[s];
-                } else {//volleyball female 0
+                }
+                else
+                {//volleyball female 0
                     selectedVideo = volleyballFemale[s];
                 }
-            } else if (b == 2) {
-                if (g == 0) {//basketball male 3
+            }
+            else if (b == 2)
+            {
+                if (g == 0)
+                {//basketball male 3
                     selectedVideo = basketballMale[s];
-                } else {//basketball female 2
+                }
+                else
+                {//basketball female 2
                     selectedVideo = basketballFemale[s];
                 }
             }
-        } else {
-            if (b == 0) {
-                if (g == 0) { //football male 5
+        }
+        else
+        {
+            if (b == 0)
+            {
+                if (g == 0)
+                { //football male 5
                     selectedVideo = footballMaleFlat[s];
-                } else { //football female 4
+                }
+                else
+                { //football female 4
                     selectedVideo = footballFemaleFlat[s];
                 }
-            } else if (b == 1) {
-                if (g == 0) {//volleyball male 1
+            }
+            else if (b == 1)
+            {
+                if (g == 0)
+                {//volleyball male 1
                     selectedVideo = volleyballMaleFlat[s];
-                } else {//volleyball female 0
+                }
+                else
+                {//volleyball female 0
                     selectedVideo = volleyballFemaleFlat[s];
                 }
-            } else if (b == 2) {
-                if (g == 0) {//basketball male 3
+            }
+            else if (b == 2)
+            {
+                if (g == 0)
+                {//basketball male 3
                     selectedVideo = basketballMaleFlat[s];
-                } else {//basketball female 2
+                }
+                else
+                {//basketball female 2
                     selectedVideo = basketballFemaleFlat[s];
                 }
             }

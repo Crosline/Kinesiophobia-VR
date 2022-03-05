@@ -986,7 +986,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.5449219, y: 0.7792969, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1323.9701, y: 140.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.17578125, y: 0.6489258, z: 0, w: 0}
+  savedTextUV0: {x: 0.7285156, y: 0.9375, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &307368009
 MonoBehaviour:
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 659.9, y: 164.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.93359375, y: 0.53564453, z: 0, w: 0}
+  savedTextUV0: {x: 0.70214844, y: 0.16699219, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &319570127
 MonoBehaviour:
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1323.9701, y: 140.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.18847656, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.8305664, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &321718750
 MonoBehaviour:
@@ -3196,7 +3196,7 @@ MonoBehaviour:
   quality: 1
   interactable: 1
   blocksRaycasts: 1
-  forceUseBoxCollider: 0
+  forceUseBoxCollider: 1
   angle: 66
   preserveAspect: 1
   vertAngle: 90
@@ -4589,7 +4589,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 955.10004, y: 207.8}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.20996094, y: 0.064941406, z: 0, w: 0}
+  savedTextUV0: {x: 0.10058594, y: 0.8833008, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &661926170
 MonoBehaviour:
@@ -6986,7 +6986,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.18652344, y: 0.92529297, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.3251953, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -7382,7 +7382,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.671875, y: 0.57714844, z: 0, w: 0}
+  savedTextUV0: {x: 0.26660156, y: 0.12597656, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -9230,7 +9230,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1323.9701, y: 140.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0, y: 0.20263672, z: 0, w: 0}
+  savedTextUV0: {x: 0.7314453, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1523624879
 MonoBehaviour:
@@ -11395,7 +11395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000010383356806, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0029296875
+      value: 0.0016479492
       objectReference: {fileID: 0}
     - target: {fileID: 224000011063755118, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11423,7 +11423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000012931849942, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00592041
+      value: 0.0009765625
       objectReference: {fileID: 0}
     - target: {fileID: 224000013440901968, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -12212,7 +12212,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 147.5}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.6298828, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.6201172, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1782883150
 MonoBehaviour:
@@ -13436,9 +13436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ced46c9aa3367488060a0e43f50333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  branch: {fileID: 0}
-  gender: {fileID: 0}
-  session: {fileID: 0}
+  branch: {fileID: 940892952}
+  gender: {fileID: 276698594}
+  session: {fileID: 2093275136}
 --- !u!114 &1964927422
 MonoBehaviour:
   m_ObjectHideFlags: 0

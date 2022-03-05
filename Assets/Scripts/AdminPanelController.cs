@@ -142,6 +142,7 @@ public class AdminPanelController : MonoBehaviour {
 					m: 5
 				 */
 				s = PlayerPrefs.GetInt("Session", 0);
+				Debug.Log(path + ":" + videoType);
 				if (b == 0) {
 					if (g == 0) { //football male 5
 						VideoManager.instance.UpdateVideos(5, s, path, videoType);
