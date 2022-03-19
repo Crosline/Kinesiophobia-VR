@@ -10,8 +10,6 @@ public class LoadVideo : MonoBehaviour {
     private GameObject blockCanvas;
     [SerializeField]
     private VideoPlayer videoPlayer;
-    [SerializeField]
-    private VideoPlayer flatVideoPlayer;
 
     private bool _isPlaying = false;
 
@@ -36,7 +34,7 @@ public class LoadVideo : MonoBehaviour {
 
         if (OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.One))
         {
-            ReLoadVideo();
+            SceneManager.LoadScene("Scenes/Survey");
         }
 
 	}
@@ -45,35 +43,17 @@ public class LoadVideo : MonoBehaviour {
 
     public IEnumerator deneme() {
         videoPlayer.url = VideoManager.instance.GetSelectedVideo(0);
-        Debug.Log(VideoManager.instance.GetSelectedVideo(0));
-        flatVideoPlayer.url = VideoManager.instance.GetSelectedVideo(1);
-        Debug.Log(VideoManager.instance.GetSelectedVideo(1));
 
         videoPlayer.Prepare();
-        flatVideoPlayer.Prepare();
         yield return new WaitUntil(() => videoPlayer.isPrepared);
         yield return new WaitForSeconds(10f);
 		_isPlaying = true;
         blockCanvas.SetActive(false);
         videoPlayer.Play();
-        flatVideoPlayer.Play();
-        flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
         yield return new WaitUntil(() => videoPlayer.isPaused);
         SceneManager.LoadScene(2);
 
 
     }
 
-
-    public void ReLoadVideo(InputAction.CallbackContext context)
-    {
-        ReLoadVideo();
-    }
-
-    private void ReLoadVideo()
-    {
-        _flatEnabled = !_flatEnabled;
-
-        flatVideoPlayer.GetComponent<MeshRenderer>().enabled = _flatEnabled;
-    }
 }
