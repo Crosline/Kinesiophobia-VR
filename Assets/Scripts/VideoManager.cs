@@ -15,7 +15,7 @@ public class VideoManager : MonoBehaviour
 
     public String[] footballFemale = new String[6];     //4
     public String[] footballMale = new String[6];       //5
-
+#if FLAT_VIDEO
     public String[] volleyballFemaleFlat = new String[6];   //0
     public String[] volleyballMaleFlat = new String[6];     //1
 
@@ -24,7 +24,7 @@ public class VideoManager : MonoBehaviour
 
     public String[] footballFemaleFlat = new String[6];     //4
     public String[] footballMaleFlat = new String[6];       //5
-
+#endif
     private String selectedVideo;
 
     public int b = 0;
@@ -46,25 +46,27 @@ public class VideoManager : MonoBehaviour
     }
     private void GetAllVideos()
     {
-        volleyballFemale = PlayerPrefsX.GetStringArray("VolleyballFemale", "", 6);
-        volleyballMale = PlayerPrefsX.GetStringArray("VolleyballMale", "", 6);
+        volleyballFemale = PlayerPrefsX.GetStringArray("VolleyballFemale", "", 10);
+        volleyballMale = PlayerPrefsX.GetStringArray("VolleyballMale", "", 10);
 
-        basketballFemale = PlayerPrefsX.GetStringArray("BasketballFemale", "", 6);
-        basketballMale = PlayerPrefsX.GetStringArray("BasketballMale", "", 6);
+        basketballFemale = PlayerPrefsX.GetStringArray("BasketballFemale", "", 10);
+        basketballMale = PlayerPrefsX.GetStringArray("BasketballMale", "", 10);
 
-        footballFemale = PlayerPrefsX.GetStringArray("FootballFemale", "", 6);
-        footballMale = PlayerPrefsX.GetStringArray("FootballMale", "", 6);
+        footballFemale = PlayerPrefsX.GetStringArray("FootballFemale", "", 10);
+        footballMale = PlayerPrefsX.GetStringArray("FootballMale", "", 10);
 
 
-        //Flat videos
-        volleyballFemaleFlat = PlayerPrefsX.GetStringArray("VolleyballFemaleFlat", "", 6);
-        volleyballMaleFlat = PlayerPrefsX.GetStringArray("VolleyballMaleFlat", "", 6);
-
-        basketballFemaleFlat = PlayerPrefsX.GetStringArray("BasketballFemaleFlat", "", 6);
-        basketballMaleFlat = PlayerPrefsX.GetStringArray("BasketballMaleFlat", "", 6);
-
-        footballFemaleFlat = PlayerPrefsX.GetStringArray("FootballFemaleFlat", "", 6);
-        footballMaleFlat = PlayerPrefsX.GetStringArray("FootballMaleFlat", "", 6);
+        // Flat videos
+#if FLAT_VIDEO
+        volleyballFemaleFlat = PlayerPrefsX.GetStringArray("VolleyballFemaleFlat", "", 10);
+        volleyballMaleFlat = PlayerPrefsX.GetStringArray("VolleyballMaleFlat", "", 10);
+        
+        basketballFemaleFlat = PlayerPrefsX.GetStringArray("BasketballFemaleFlat", "", 10);
+        basketballMaleFlat = PlayerPrefsX.GetStringArray("BasketballMaleFlat", "", 10);
+        
+        footballFemaleFlat = PlayerPrefsX.GetStringArray("FootballFemaleFlat", "", 10);
+        footballMaleFlat = PlayerPrefsX.GetStringArray("FootballMaleFlat", "", 10);
+  #endif
     }
     public void UpdateVideos(int s, int i, String path, int videoType = 0)
     {
@@ -79,8 +81,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("VolleyballFemaleFlat", volleyballFemaleFlat);
                 volleyballFemaleFlat[i] = path;
+#endif
             }
         }
         else if (s == 1)
@@ -92,8 +96,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("VolleyballMaleFlat", volleyballMaleFlat);
                 volleyballMaleFlat[i] = path;
+#endif
             }
 
         }
@@ -106,8 +112,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("BasketballFemaleFlat", basketballFemaleFlat);
                 basketballFemaleFlat[i] = path;
+#endif
             }
         }
         else if (s == 3)
@@ -119,8 +127,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("BasketballMaleFlat", basketballMaleFlat);
                 basketballMaleFlat[i] = path;
+#endif
             }
 
         }
@@ -133,8 +143,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("FootballFemaleFlat", footballFemaleFlat);
                 footballFemaleFlat[i] = path;
+#endif
             }
         }
         else if (s == 5)
@@ -147,8 +159,10 @@ public class VideoManager : MonoBehaviour
             }
             else
             {
+#if FLAT_VIDEO
                 PlayerPrefsX.SetStringArray("FootballMaleFlat", footballMaleFlat);
                 footballMaleFlat[i] = path;
+#endif
             }
         }
 
@@ -196,6 +210,7 @@ public class VideoManager : MonoBehaviour
         }
         else
         {
+#if FLAT_VIDEO
             if (b == 0)
             {
                 if (g == 0)
@@ -229,6 +244,7 @@ public class VideoManager : MonoBehaviour
                     selectedVideo = basketballFemaleFlat[s];
                 }
             }
+#endif
         }
 
         return selectedVideo;
