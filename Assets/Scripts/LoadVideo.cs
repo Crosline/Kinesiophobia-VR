@@ -32,11 +32,11 @@ public class LoadVideo : MonoBehaviour {
 		
 		if (!_isPlaying) return;
 
-        if (OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.One))
-        {
+        if (OVRInput.GetDown(OVRInput.RawButton.A)) {
+            _isPlaying = false;
             SceneManager.LoadScene("Survey");
         }
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger))
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
         {
             if (!videoPlayer.isPaused)
                 videoPlayer.Pause();
