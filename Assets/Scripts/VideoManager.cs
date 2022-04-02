@@ -76,14 +76,15 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-                PlayerPrefsX.SetStringArray("VolleyballFemale", volleyballFemale);
                 volleyballFemale[i] = path;
+
+                PlayerPrefsX.SetStringArray("VolleyballFemale", volleyballFemale);
             }
             else
             {
 #if FLAT_VIDEO
-                PlayerPrefsX.SetStringArray("VolleyballFemaleFlat", volleyballFemaleFlat);
                 volleyballFemaleFlat[i] = path;
+                PlayerPrefsX.SetStringArray("VolleyballFemaleFlat", volleyballFemaleFlat);
 #endif
             }
         }
@@ -91,14 +92,14 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-                PlayerPrefsX.SetStringArray("VolleyballMale", volleyballMale);
                 volleyballMale[i] = path;
+                PlayerPrefsX.SetStringArray("VolleyballMale", volleyballMale);
             }
             else
             {
 #if FLAT_VIDEO
-                PlayerPrefsX.SetStringArray("VolleyballMaleFlat", volleyballMaleFlat);
                 volleyballMaleFlat[i] = path;
+                PlayerPrefsX.SetStringArray("VolleyballMaleFlat", volleyballMaleFlat);
 #endif
             }
 
@@ -107,8 +108,8 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-                PlayerPrefsX.SetStringArray("BasketballFemale", basketballFemale);
                 basketballFemale[i] = path;
+                PlayerPrefsX.SetStringArray("BasketballFemale", basketballFemale);
             }
             else
             {
@@ -122,8 +123,8 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-                PlayerPrefsX.SetStringArray("BasketballMale", basketballMale);
                 basketballMale[i] = path;
+                PlayerPrefsX.SetStringArray("BasketballMale", basketballMale);
             }
             else
             {
@@ -138,8 +139,8 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-                PlayerPrefsX.SetStringArray("FootballFemale", footballFemale);
                 footballFemale[i] = path;
+                PlayerPrefsX.SetStringArray("FootballFemale", footballFemale);
             }
             else
             {
@@ -153,9 +154,8 @@ public class VideoManager : MonoBehaviour
         {
             if (videoType == 0)
             {
-
-                PlayerPrefsX.SetStringArray("FootballMale", footballMale);
                 footballMale[i] = path;
+                PlayerPrefsX.SetStringArray("FootballMale", footballMale);
             }
             else
             {

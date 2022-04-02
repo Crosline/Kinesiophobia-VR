@@ -145,21 +145,21 @@ public class AdminPanelController : MonoBehaviour {
 				Debug.Log(path + ":" + videoType);
 				if (b == 0) {
 					if (g == 0) { //football male 5
-						VideoManager.instance.UpdateVideos(5, s, path, videoType);
+						VideoManager.instance.UpdateVideos(5, s, path, 0);
 					} else { //football female 4
-						VideoManager.instance.UpdateVideos(4, s, path, videoType);
+						VideoManager.instance.UpdateVideos(4, s, path, 0);
 					}
 				} else if (b == 1) {
 					if (g == 0) {//volleyball male 1
-						VideoManager.instance.UpdateVideos(1, s, path, videoType);
+						VideoManager.instance.UpdateVideos(1, s, path, 0);
 					} else {//volleyball female 0
-						VideoManager.instance.UpdateVideos(0, s, path, videoType);
+						VideoManager.instance.UpdateVideos(0, s, path, 0);
 					}
 				} else if (b == 2) {
 					if (g == 0) {//basketball male 3
-						VideoManager.instance.UpdateVideos(3, s, path, videoType);
+						VideoManager.instance.UpdateVideos(3, s, path, 0);
 					} else {//basketball female 2
-						VideoManager.instance.UpdateVideos(2, s, path, videoType);
+						VideoManager.instance.UpdateVideos(2, s, path, 0);
 					}
 				}
 				
