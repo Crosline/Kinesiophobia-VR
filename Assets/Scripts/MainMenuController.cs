@@ -32,8 +32,13 @@ public class MainMenuController : MonoBehaviour {
         menuPanel.SetActive(!isOpen);
     }
 
-    public void StartGame() {
-        SceneManager.LoadScene(1);
+    public void StartGame360()
+    {
+        SceneManager.LoadScene("360Video");
+    }
+    public void StartGameFlat()
+    {
+        SceneManager.LoadScene("FlatVideo");
     }
     public void OpenSettings(bool isOpen) {
         settingsPanel.SetActive(isOpen);

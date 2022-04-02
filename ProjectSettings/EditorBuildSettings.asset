@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/360Video.unity
     guid: 77171f4d172b2cf49aa03ca5dc27c1d6
   - enabled: 1
+    path: Assets/Scenes/FlatVideo.unity
+    guid: 2b07bc59bcaccd048876c6abd7953f90
+  - enabled: 1
     path: Assets/Scenes/Survey.unity
     guid: 107a4e93b8411d5479197b1d8daa25b4
   m_configObjects:

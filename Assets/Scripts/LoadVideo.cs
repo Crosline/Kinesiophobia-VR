@@ -32,9 +32,16 @@ public class LoadVideo : MonoBehaviour {
 		
 		if (!_isPlaying) return;
 
-        if (OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.One))
+        if (OVRInput.GetDown(OVRInput.Button.Two))
         {
             SceneManager.LoadScene("Scenes/Survey");
+        }
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        {
+            if (!videoPlayer.isPaused)
+                videoPlayer.Pause();
+            else
+                videoPlayer.Play();
         }
 
 	}
