@@ -34,7 +34,7 @@ public class LoadVideo : MonoBehaviour {
 
         if (OVRInput.GetDown(OVRInput.Button.Two))
         {
-            SceneManager.LoadScene("Scenes/Survey");
+            SceneManager.LoadScene("Survey");
         }
         if (OVRInput.GetDown(OVRInput.Button.One))
         {
@@ -58,7 +58,7 @@ public class LoadVideo : MonoBehaviour {
         blockCanvas.SetActive(false);
         videoPlayer.Play();
         yield return new WaitUntil(() => videoPlayer.isPaused);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Survey");
 
 
     }

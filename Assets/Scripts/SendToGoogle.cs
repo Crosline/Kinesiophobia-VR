@@ -38,10 +38,10 @@ public class SendToGoogle : MonoBehaviour {
 
         if (www.isNetworkError || www.result == UnityWebRequest.Result.ConnectionError) {
             Debug.Log(www.error);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Survey");
         } else {
             Debug.Log("Form upload complete!");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Menu");
         }
     }
     public void Send() {
