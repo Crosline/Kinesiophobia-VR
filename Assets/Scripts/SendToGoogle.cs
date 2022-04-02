@@ -17,6 +17,10 @@ public class SendToGoogle : MonoBehaviour {
     [SerializeField]
     private String BASE_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9P2Xxr9kjWU9LJgpmiMUIQHBDHUA2N1XD4RJwsuJ8UsUbkQ/formResponse";
 
+    private void Awake()
+    {
+        BASE_URL = PlayerPrefs.GetString("FormLink", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9P2Xxr9kjWU9LJgpmiMUIQHBDHUA2N1XD4RJwsuJ8UsUbkQ/formResponse");
+    }
     IEnumerator PostGoogle() {
         WWWForm form = new WWWForm();
         form.AddField("entry.2100849996", cinsiyet);

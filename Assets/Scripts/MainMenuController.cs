@@ -14,6 +14,8 @@ public class MainMenuController : MonoBehaviour {
 
     public Slider audioSlider;
 
+    public InputField formInput;
+
     public AudioMixer audioMixer;
     public float masterVolume;
 
@@ -24,9 +26,16 @@ public class MainMenuController : MonoBehaviour {
         settingsPanel.SetActive(true);
         audioSlider.value = masterVolume;
         SetMasterVolume(masterVolume);
+        formInput.text = PlayerPrefs.GetString("FormLink", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9P2Xxr9kjWU9LJgpmiMUIQHBDHUA2N1XD4RJwsuJ8UsUbkQ/formResponse");
         settingsPanel.SetActive(false);
 
     }
+
+    public void SaveFormLink()
+    {
+        PlayerPrefs.SetString("FormLink", formInput.text);
+    }
+
     public void OpenStart(bool isOpen) {
         startPanel.SetActive(isOpen);
         menuPanel.SetActive(!isOpen);
