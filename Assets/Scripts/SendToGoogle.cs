@@ -77,7 +77,7 @@ public class SendToGoogle : MonoBehaviour {
 
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
 
     }
 }

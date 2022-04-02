@@ -17,7 +17,7 @@ public class SurveyManager : MonoBehaviour
     
     public void NumberTapped(int a) {
             surveyAnswers.Add(a.ToString());
-            questionTexts[0].gameObject.SetActive(false);
+            // questionTexts[0].gameObject.SetActive(false);
             if (stg == null) {
                 stg = GetComponent<SendToGoogle>();
             }
