@@ -14,6 +14,8 @@ public class SendToGoogle : MonoBehaviour {
 
     public String soru1 = "s1";
 
+    public GameObject NoInternetCanvas;
+
     [SerializeField]
     private String BASE_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9P2Xxr9kjWU9LJgpmiMUIQHBDHUA2N1XD4RJwsuJ8UsUbkQ/formResponse";
 
@@ -38,10 +40,10 @@ public class SendToGoogle : MonoBehaviour {
 
         if (www.isNetworkError || www.result == UnityWebRequest.Result.ConnectionError) {
             Debug.Log(www.error);
-            SceneManager.LoadScene("Survey");
+            NoInternetCanvas.SetActive(true);
         } else {
             Debug.Log("Form upload complete!");
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("MainMenu");
         }
     }
     public void Send() {
@@ -70,6 +72,12 @@ public class SendToGoogle : MonoBehaviour {
 
 
         StartCoroutine(PostGoogle());
+
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("Menu");
 
     }
 }
