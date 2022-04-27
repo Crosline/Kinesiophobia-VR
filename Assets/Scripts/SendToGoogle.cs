@@ -23,6 +23,16 @@ public class SendToGoogle : MonoBehaviour {
     {
         BASE_URL = PlayerPrefs.GetString("FormLink", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9P2Xxr9kjWU9LJgpmiMUIQHBDHUA2N1XD4RJwsuJ8UsUbkQ/formResponse");
     }
+	
+	IEnumerator Start(){
+		yield return new WaitUntil(() => OVRInput.GetDown(OVRInput.RawButton.A) || OVRInput.GetDown(OVRInput.RawButton.B));
+		
+		if (VideoManager.instance.isFlat)
+			SceneManager.LoadScene("FlatVideo");
+		else
+			SceneManager.LoadScene("360Video");
+	}
+	
     IEnumerator PostGoogle() {
         WWWForm form = new WWWForm();
         form.AddField("entry.2100849996", cinsiyet);
@@ -47,6 +57,7 @@ public class SendToGoogle : MonoBehaviour {
         }
     }
     public void Send() {
+		return;
         tarih = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
 
         if (VideoManager.instance.g == 0) {

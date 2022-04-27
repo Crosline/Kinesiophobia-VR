@@ -32,11 +32,7 @@ public class LoadVideo : MonoBehaviour {
 		
 		if (!_isPlaying) return;
 
-        if (OVRInput.GetDown(OVRInput.RawButton.A)) {
-            _isPlaying = false;
-            SceneManager.LoadScene("Survey");
-        }
-        if (OVRInput.GetDown(OVRInput.RawButton.B))
+        if (OVRInput.GetDown(OVRInput.RawButton.A) || OVRInput.GetDown(OVRInput.RawButton.B))
         {
             if (!videoPlayer.isPaused)
                 videoPlayer.Pause();
@@ -53,13 +49,10 @@ public class LoadVideo : MonoBehaviour {
 
         videoPlayer.Prepare();
         yield return new WaitUntil(() => videoPlayer.isPrepared);
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(3f);
 		_isPlaying = true;
         blockCanvas.SetActive(false);
         videoPlayer.Play();
-        yield return new WaitUntil(() => videoPlayer.isPaused);
-        SceneManager.LoadScene("Survey");
-
 
     }
 

@@ -178,7 +178,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1228.5, y: 230.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.17041016, y: 0.78393555, z: 0, w: 0}
+  savedTextUV0: {x: 0.8388672, y: 0.4633789, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &14845627
 MonoBehaviour:
@@ -372,7 +372,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 3078.3, y: 903.8}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.27441406, y: 0.35864258, z: 0, w: 0}
+  savedTextUV0: {x: 0.3564453, y: 0.026855469, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &165607350
 MonoBehaviour:
@@ -473,7 +473,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1788.3, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05029297, y: 0.099609375, z: 0, w: 0}
+  savedTextUV0: {x: 0.4716797, y: 0.080322266, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &201494161
 MonoBehaviour:
@@ -573,7 +573,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1228.5, y: 230.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.16552734, y: 0.4753418, z: 0, w: 0}
+  savedTextUV0: {x: 0.18652344, y: 0.043945312, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &240776403
 MonoBehaviour:
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   savedPos: {x: -975.00006, y: 865.49994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.5882353, b: 0.5882353, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &619788300
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5882353, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1601,7 +1601,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 374.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.2133789, y: 0.111572266, z: 0, w: 0}
+  savedTextUV0: {x: 0.6850586, y: 0.25, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &758956582
 MonoBehaviour:
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 280.2}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.2446289, y: 0.13891602, z: 0, w: 0}
+  savedTextUV0: {x: 0.18359375, y: 0.061767578, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &783200202
 MonoBehaviour:
@@ -2277,7 +2277,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 362.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.0703125, y: 0.30517578, z: 0, w: 0}
+  savedTextUV0: {x: 0.2836914, y: 0.017578125, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &861413069
 MonoBehaviour:
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.14648438, y: 0.27685547, z: 0, w: 0}
+  savedTextUV0: {x: 0.39697266, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &943761929
 MonoBehaviour:
@@ -2727,7 +2727,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 256.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5229492, y: 0.06542969, z: 0, w: 0}
+  savedTextUV0: {x: 0.1772461, y: 0.09423828, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1091414185
 MonoBehaviour:
@@ -3241,7 +3241,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.35205078, y: 0.0793457, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.10180664, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1212370267
 MonoBehaviour:
@@ -3341,7 +3341,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1833.3, y: 268.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.39404297, y: 0.122558594, z: 0, w: 0}
+  savedTextUV0: {x: 0.34033203, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1213934352
 MonoBehaviour:
@@ -3441,7 +3441,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1932.3, y: 362.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.49121094, y: 0.41235352, z: 0, w: 0}
+  savedTextUV0: {x: 0.14453125, y: 0.70532227, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1271076715
 MonoBehaviour:
@@ -3963,7 +3963,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 351}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.014160156, y: 0.37426758, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.47631836, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1444474842
 MonoBehaviour:
@@ -5257,7 +5257,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.7006836, y: 0.030029297, z: 0, w: 0}
+  savedTextUV0: {x: 0.07861328, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1808604329
 MonoBehaviour:
@@ -5356,7 +5356,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 303.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.053222656, y: 0.3544922, z: 0, w: 0}
+  savedTextUV0: {x: 0.42138672, y: 0.07885742, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1813547751
 MonoBehaviour:
@@ -5736,7 +5736,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 351}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.1796875, y: 0.3347168, z: 0, w: 0}
+  savedTextUV0: {x: 0.24365234, y: 0.06542969, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &2039966221
 MonoBehaviour:
@@ -5801,7 +5801,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.7192383, y: 0.046142578, z: 0, w: 0}
+  savedTextUV0: {x: 0.12060547, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &958048906823861096
 MonoBehaviour:
@@ -5820,7 +5820,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 953.4, y: 182.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.90771484, y: 0.030273438, z: 0, w: 0}
+  savedTextUV0: {x: 0.08496094, y: 0.6191406, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &965497100538260283
 MonoBehaviour:
@@ -5838,7 +5838,7 @@ MonoBehaviour:
   savedPos: {x: 1950, y: -607.9001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 0.5678984, g: 1, b: 0.5235849, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &967508559385397078
@@ -5857,7 +5857,7 @@ MonoBehaviour:
   savedPos: {x: 1950, y: 194.79976, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 0.7907598, g: 1, b: 0.5254902, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &980853206337382539
@@ -5877,7 +5877,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.24951172, y: 0.31860352, z: 0, w: 0}
+  savedTextUV0: {x: 0.020996094, y: 0.052001953, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1047479029629550350
 MonoBehaviour:
@@ -5896,7 +5896,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.28710938, y: 0.3022461, z: 0, w: 0}
+  savedTextUV0: {x: 0.14257812, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!1 &1706203707849093969
 GameObject:
@@ -5931,7 +5931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7077811, b: 0.48584908, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6147,7 +6147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6420238, g: 1, b: 0.5137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6799,7 +6799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7907598, g: 1, b: 0.5254902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7257,7 +7257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5678984, g: 1, b: 0.5235849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7413,7 +7413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9904942, b: 0.514151, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7635,7 +7635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.902165, g: 1, b: 0.504717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7685,7 +7685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.81841797, b: 0.5518868, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7857,7 +7857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6589629, b: 0.5707547, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8123,7 +8123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4669811, g: 1, b: 0.50185424, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8259,7 +8259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.89820105, b: 0.504717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8292,7 +8292,7 @@ MonoBehaviour:
   savedPos: {x: 1950, y: 633.79974, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 0.902165, g: 1, b: 0.504717, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &3151395451121182466
@@ -8312,7 +8312,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.014160156, y: 0.4375, z: 0, w: 0}
+  savedTextUV0: {x: 0.055664062, y: 0.013427734, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3339276200101178609
 MonoBehaviour:
@@ -8331,7 +8331,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.1977539, y: 0.3461914, z: 0, w: 0}
+  savedTextUV0: {x: 0.041503906, y: 0.029052734, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3535946238394182595
 MonoBehaviour:
@@ -8350,7 +8350,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.34179688, y: 0.3137207, z: 0, w: 0}
+  savedTextUV0: {x: 0.08886719, y: 0.016113281, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3583058208636159029
 MonoBehaviour:
@@ -8368,7 +8368,7 @@ MonoBehaviour:
   savedPos: {x: -1950, y: -186.50015, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.81841797, b: 0.5518868, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &4590190276406870952
@@ -8387,7 +8387,7 @@ MonoBehaviour:
   savedPos: {x: 1950, y: -214.20033, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 0.6420238, g: 1, b: 0.5137255, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &4641324200295816159
@@ -8407,7 +8407,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.83447266, y: 0.02758789, z: 0, w: 0}
+  savedTextUV0: {x: 0.10986328, y: 0.015625, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &4761600554754291558
 MonoBehaviour:
@@ -8425,7 +8425,7 @@ MonoBehaviour:
   savedPos: {x: -1950, y: 615.49994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.6589629, b: 0.5707547, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5440451567450937307
@@ -8444,7 +8444,7 @@ MonoBehaviour:
   savedPos: {x: 1950, y: -1026.5001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 0.4669811, g: 1, b: 0.50185424, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5631049281606199854
@@ -8463,7 +8463,7 @@ MonoBehaviour:
   savedPos: {x: -1950, y: -1017.50006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.9904942, b: 0.514151, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5682417409183462079
@@ -8482,7 +8482,7 @@ MonoBehaviour:
   savedPos: {x: -1950, y: 211.49991, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.7077811, b: 0.48584908, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &6589782718014028953
@@ -8502,7 +8502,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.14892578, y: 0.37036133, z: 0, w: 0}
+  savedTextUV0: {x: 0.099609375, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &7632886768853580160
 MonoBehaviour:
@@ -8521,7 +8521,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.056640625, y: 0.41845703, z: 0, w: 0}
+  savedTextUV0: {x: 0.067871094, y: 0.016113281, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &8095297112701579524
 MonoBehaviour:
@@ -8539,7 +8539,7 @@ MonoBehaviour:
   savedPos: {x: -1950, y: -590.5002, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedColor: {r: 1, g: 0.89820105, b: 0.504717, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &8494506349781652240
@@ -8559,5 +8559,5 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.014160156, y: 0.4375, z: 0, w: 0}
+  savedTextUV0: {x: 0.055664062, y: 0.013427734, z: 0, w: 0}
   savedFill: 0

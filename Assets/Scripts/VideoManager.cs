@@ -6,6 +6,8 @@ public class VideoManager : MonoBehaviour
 
 
     public static VideoManager instance;
+	
+	public bool isFlat;
 
     public String[] volleyballFemale = new String[6];   //0
     public String[] volleyballMale = new String[6];     //1
