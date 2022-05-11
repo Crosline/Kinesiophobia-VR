@@ -273,10 +273,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: 175.50002, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: 131, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 362.8}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &121542484
@@ -292,14 +292,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -469,11 +469,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 24.900024, y: 865.49994, z: 0.0000667572}
+  savedPos: {x: 24.900024, y: 944.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1788.3, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.4716797, y: 0.080322266, z: 0, w: 0}
+  savedTextUV0: {x: 0.55078125, y: 0.012451172, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &201494161
 MonoBehaviour:
@@ -668,10 +668,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: 579.49994, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: 534.99994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 351}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &274888455
@@ -687,14 +687,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -826,9 +826,6 @@ MonoBehaviour:
   worldSpaceMouseSensitivity: 1
   usedHand: 0
   pointerTransformOverride: {fileID: 0}
-  TouchControllerTransform: {fileID: 0}
-  InteractionButton: -1
-  oculusCameraRig: {fileID: 694010906}
 --- !u!114 &400832693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,10 +1115,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -222.50005, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -267.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &605221374
@@ -1137,14 +1134,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1217,10 +1214,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -975.00006, y: 865.49994, z: 0.0000667572}
+  savedPos: {x: -975.00006, y: 773, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.5882353, b: 0.5882353, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &619788300
@@ -1292,15 +1289,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5882353, b: 0.5882353, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 72c5124520571b440be83ec8d9d19d62, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1395,7 +1392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.785
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1440,17 +1437,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 487254, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
   m_PrefabInstance: {fileID: 694010901}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &694010906 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400010, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-  m_PrefabInstance: {fileID: 694010901}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &753137512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,10 +1488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -643.89996, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -688.3999, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 374.6}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &753137515
@@ -1521,14 +1507,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1597,11 +1583,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -643.89996, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -688.3999, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 374.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.6850586, y: 0.25, z: 0, w: 0}
+  savedTextUV0: {x: 0.08105469, y: 0.13696289, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &758956582
 MonoBehaviour:
@@ -2077,11 +2063,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: 158.79993, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: 114.29991, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 280.2}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.18359375, y: 0.061767578, z: 0, w: 0}
+  savedTextUV0: {x: 0.5517578, y: 0.10107422, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &783200202
 MonoBehaviour:
@@ -2273,11 +2259,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: 211.49991, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: 131, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 362.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.2836914, y: 0.017578125, z: 0, w: 0}
+  savedTextUV0: {x: 0.16455078, y: 0.29223633, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &861413069
 MonoBehaviour:
@@ -2375,11 +2361,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -186.50015, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -267.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.39697266, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.14990234, y: 0.30664062, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &943761929
 MonoBehaviour:
@@ -2475,10 +2461,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -626.5, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -671, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 303.8}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1001321922
@@ -2494,14 +2480,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2723,11 +2709,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -250.20023, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -294.70023, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 256.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.1772461, y: 0.09423828, z: 0, w: 0}
+  savedTextUV0: {x: 0.23339844, y: 0.28100586, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1091414185
 MonoBehaviour:
@@ -2823,10 +2809,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: 158.79993, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: 114.29991, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 280.2}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1119235633
@@ -2842,14 +2828,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2918,10 +2904,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 24.900024, y: 876.5001, z: 0.0000667572}
+  savedPos: {x: 24.900024, y: 773, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1788.3, y: 209.3}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1124281953
@@ -2937,14 +2923,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3237,11 +3223,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -1017.50006, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -1098.0001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.10180664, z: 0, w: 0}
+  savedTextUV0: {x: 0.296875, y: 0.06958008, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1212370267
 MonoBehaviour:
@@ -3337,11 +3323,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 928.7001, y: 597.8, z: 0.0000667572}
+  savedPos: {x: 928.7001, y: 553.29987, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1833.3, y: 268.3}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.34033203, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.28759766, y: 0.1538086, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1213934352
 MonoBehaviour:
@@ -3536,10 +3522,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -1053.5001, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -1098.0001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 209.3}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1332545968
@@ -3555,14 +3541,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3864,10 +3850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -250.20023, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -294.70023, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 256.6}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1384226863
@@ -3883,14 +3869,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3959,11 +3945,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: 615.49994, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: 534.99994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 351}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.47631836, z: 0, w: 0}
+  savedTextUV0: {x: 0.2421875, y: 0.32226562, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1444474842
 MonoBehaviour:
@@ -4067,8 +4053,8 @@ MonoBehaviour:
   DoNotTesselate: 0
   savedPos: {x: 0, y: 0, z: 0}
   savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 4336.6523, y: 2465.649}
-  savedColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  savedRectSize: {x: 4336.6523, y: 2796.275}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1500812213
@@ -4084,14 +4070,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b9f2c7e563a499b49bebc8a47a2e2073, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4614,10 +4600,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -1062.5, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -1107, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 351}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1622788630
@@ -4633,14 +4619,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5253,11 +5239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -975.00006, y: 865.49994, z: 0.0000667572}
+  savedPos: {x: -975.00006, y: 773, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.07861328, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.092285156, y: 0.42358398, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1808604329
 MonoBehaviour:
@@ -5352,11 +5338,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -938.30005, y: -590.5002, z: 0.0000667572}
+  savedPos: {x: -938.30005, y: -671, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1764.7001, y: 303.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.42138672, y: 0.07885742, z: 0, w: 0}
+  savedTextUV0: {x: 0.15771484, y: 0.36132812, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1813547751
 MonoBehaviour:
@@ -5445,6 +5431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9f7b2ae9372fc4eb7aab9519bfbb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFlat: 0
   volleyballFemale:
   - 
   - 
@@ -5541,10 +5528,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 928.7001, y: 597.8, z: 0.0000667572}
+  savedPos: {x: 928.7001, y: 553.29987, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1833.3, y: 268.3}
-  savedColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &1840983904
@@ -5560,14 +5547,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.4392157}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a57f62aabd3fb0842ad7223e9f52735a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5732,11 +5719,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 924.10004, y: -1062.5, z: 0.0000667572}
+  savedPos: {x: 924.10004, y: -1107, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1824.2001, y: 351}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.24365234, y: 0.06542969, z: 0, w: 0}
+  savedTextUV0: {x: 0.12011719, y: 0.44335938, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &2039966221
 MonoBehaviour:
@@ -5797,11 +5784,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -590.5002, z: 0.0000667572}
+  savedPos: {x: -1950, y: -671, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.12060547, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.13916016, y: 0.47460938, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &958048906823861096
 MonoBehaviour:
@@ -5816,11 +5803,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 286.99997, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 1038.0001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 953.4, y: 182.6}
+  savedRectSize: {x: 1475.7, y: 182.6}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.08496094, y: 0.6191406, z: 0, w: 0}
+  savedTextUV0: {x: 0.23339844, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &965497100538260283
 MonoBehaviour:
@@ -5835,10 +5822,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -607.9001, z: 0.0000667572}
+  savedPos: {x: 1950, y: -688.3999, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 0.5678984, g: 1, b: 0.5235849, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &967508559385397078
@@ -5854,10 +5841,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: 194.79976, z: 0.0000667572}
+  savedPos: {x: 1950, y: 114.29991, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 0.7907598, g: 1, b: 0.5254902, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &980853206337382539
@@ -5873,11 +5860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: 633.79974, z: 0.0000667572}
+  savedPos: {x: 1950, y: 553.29987, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.020996094, y: 0.052001953, z: 0, w: 0}
+  savedTextUV0: {x: 0.34423828, y: 0.16772461, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1047479029629550350
 MonoBehaviour:
@@ -5892,11 +5879,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -607.9001, z: 0.0000667572}
+  savedPos: {x: 1950, y: -688.3999, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.14257812, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.80029297, y: 0.15161133, z: 0, w: 0}
   savedFill: 0
 --- !u!1 &1706203707849093969
 GameObject:
@@ -5931,15 +5918,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7077811, b: 0.48584908, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4b771760c1ed71b45b25c3ce3d07c465, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5975,7 +5962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1950, y: -965.99994}
+  m_AnchoredPosition: {x: -1950, y: -1078}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203707849093975
@@ -6147,15 +6134,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6420238, g: 1, b: 0.5137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9f41d97ef801cb94fb1c8df3e7e754e0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6191,7 +6178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1950, y: -1391.7002}
+  m_AnchoredPosition: {x: 1950, y: -1503.7002}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203708015045935
@@ -6799,15 +6786,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7907598, g: 1, b: 0.5254902, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b2dd1742a1098ac4a92f6cabe73c2e19, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6855,7 +6842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1950, y: -982.7001}
+  m_AnchoredPosition: {x: 1950, y: -1094.7001}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1706203708624135190
@@ -7080,8 +7067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 1141.5}
-  m_SizeDelta: {x: 953.4, y: 182.6}
+  m_AnchoredPosition: {x: 0, y: 1209}
+  m_SizeDelta: {x: 1475.7, y: 182.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203708782691207
 MonoBehaviour:
@@ -7104,12 +7091,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 58
+    m_Font: {fileID: 12800000, guid: 6921a454aa104cf47a67f59c64acaa17, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 97
+    m_MinSize: 5
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -7179,8 +7166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.02, y: 1.04}
-  m_SizeDelta: {x: 4336.6523, y: 2465.649}
+  m_AnchoredPosition: {x: 0.02, y: 0.7094}
+  m_SizeDelta: {x: 4336.6523, y: 2796.275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203708903824857
 MonoBehaviour:
@@ -7257,15 +7244,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5678984, g: 1, b: 0.5235849, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 49bd821ef32b1b9428b873e29ce297e5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7301,7 +7288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1950, y: -1785.3999}
+  m_AnchoredPosition: {x: 1950, y: -1897.3999}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203709066673283
@@ -7413,15 +7400,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9904942, b: 0.514151, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b6a83b58fa0ea044a895e5418fb151f3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7457,7 +7444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1950, y: -2195}
+  m_AnchoredPosition: {x: -1950, y: -2307}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203709094768167
@@ -7555,7 +7542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1950, y: -543.7001}
+  m_AnchoredPosition: {x: 1950, y: -655.70013}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1706203709153025532
@@ -7635,15 +7622,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.902165, g: 1, b: 0.504717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 98dc77bb8255d3d47b60252fec5979f4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7685,15 +7672,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.81841797, b: 0.5518868, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: aa71503b40309ec4eabb54af467001e8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7729,7 +7716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1950, y: -1364}
+  m_AnchoredPosition: {x: -1950, y: -1476}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706203709268390411
@@ -7857,15 +7844,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6589629, b: 0.5707547, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5079a39203083c84c94ebbc22347b11c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7913,7 +7900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1950, y: -562}
+  m_AnchoredPosition: {x: -1950, y: -674.00006}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1706203709320039150
@@ -8043,7 +8030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1950, y: -2204}
+  m_AnchoredPosition: {x: 1950, y: -2316}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1706203709487398728
@@ -8123,15 +8110,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4669811, g: 1, b: 0.50185424, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e0b2cf11f203cac4e98e7121dd79bf3e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8179,7 +8166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1950, y: -1768}
+  m_AnchoredPosition: {x: -1950, y: -1880}
   m_SizeDelta: {x: 209.3, y: 209.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1706203709757235256
@@ -8259,15 +8246,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.89820105, b: 0.504717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 7d398fe79694bd94ba4ea154d5713d38, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8289,10 +8276,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: 633.79974, z: 0.0000667572}
+  savedPos: {x: 1950, y: 553.29987, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 0.902165, g: 1, b: 0.504717, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &3151395451121182466
@@ -8308,11 +8295,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -1026.5001, z: 0.0000667572}
+  savedPos: {x: 1950, y: -1107, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.055664062, y: 0.013427734, z: 0, w: 0}
+  savedTextUV0: {x: 0.78808594, y: 0.1508789, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3339276200101178609
 MonoBehaviour:
@@ -8327,11 +8314,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: 194.79976, z: 0.0000667572}
+  savedPos: {x: 1950, y: 114.29991, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.041503906, y: 0.029052734, z: 0, w: 0}
+  savedTextUV0: {x: 0.2265625, y: 0.38549805, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3535946238394182595
 MonoBehaviour:
@@ -8346,11 +8333,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -1017.50006, z: 0.0000667572}
+  savedPos: {x: -1950, y: -1098.0001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.08886719, y: 0.016113281, z: 0, w: 0}
+  savedTextUV0: {x: 0.45703125, y: 0.111572266, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &3583058208636159029
 MonoBehaviour:
@@ -8365,10 +8352,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -186.50015, z: 0.0000667572}
+  savedPos: {x: -1950, y: -267.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.81841797, b: 0.5518868, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &4590190276406870952
@@ -8384,10 +8371,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -214.20033, z: 0.0000667572}
+  savedPos: {x: 1950, y: -294.70023, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 0.6420238, g: 1, b: 0.5137255, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &4641324200295816159
@@ -8403,11 +8390,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -214.20033, z: 0.0000667572}
+  savedPos: {x: 1950, y: -294.70023, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.10986328, y: 0.015625, z: 0, w: 0}
+  savedTextUV0: {x: 0.8359375, y: 0.13134766, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &4761600554754291558
 MonoBehaviour:
@@ -8422,10 +8409,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: 615.49994, z: 0.0000667572}
+  savedPos: {x: -1950, y: 534.99994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.6589629, b: 0.5707547, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5440451567450937307
@@ -8441,10 +8428,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1950, y: -1026.5001, z: 0.0000667572}
+  savedPos: {x: 1950, y: -1107, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 0.4669811, g: 1, b: 0.50185424, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5631049281606199854
@@ -8460,10 +8447,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -1017.50006, z: 0.0000667572}
+  savedPos: {x: -1950, y: -1098.0001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.9904942, b: 0.514151, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &5682417409183462079
@@ -8479,10 +8466,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: 211.49991, z: 0.0000667572}
+  savedPos: {x: -1950, y: 131, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.7077811, b: 0.48584908, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &6589782718014028953
@@ -8498,11 +8485,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: 211.49991, z: 0.0000667572}
+  savedPos: {x: -1950, y: 131, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.099609375, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.16113281, y: 0.42993164, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &7632886768853580160
 MonoBehaviour:
@@ -8517,11 +8504,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -186.50015, z: 0.0000667572}
+  savedPos: {x: -1950, y: -267.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.067871094, y: 0.016113281, z: 0, w: 0}
+  savedTextUV0: {x: 0.8569336, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &8095297112701579524
 MonoBehaviour:
@@ -8536,10 +8523,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: -590.5002, z: 0.0000667572}
+  savedPos: {x: -1950, y: -671, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
-  savedColor: {r: 1, g: 0.89820105, b: 0.504717, a: 1}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
 --- !u!114 &8494506349781652240
@@ -8555,9 +8542,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -1950, y: 615.49994, z: 0.0000667572}
+  savedPos: {x: -1950, y: 534.99994, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 209.3, y: 209.3}
   savedColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  savedTextUV0: {x: 0.055664062, y: 0.013427734, z: 0, w: 0}
+  savedTextUV0: {x: 0.78808594, y: 0.1508789, z: 0, w: 0}
   savedFill: 0
