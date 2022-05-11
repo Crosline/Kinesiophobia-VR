@@ -32,12 +32,27 @@ public class LoadVideo : MonoBehaviour {
 		
 		if (!_isPlaying) return;
 
-        if (OVRInput.GetDown(OVRInput.RawButton.A) || OVRInput.GetDown(OVRInput.RawButton.B))
+        if (OVRInput.Get(OVRInput.Button.One))
         {
             if (!videoPlayer.isPaused)
                 videoPlayer.Pause();
             else
                 videoPlayer.Play();
+        }
+
+        if (OVRInput.Get(OVRInput.Button.Two))
+        {
+            SceneManager.LoadScene("Scenes/MainMenu");
+        }
+        
+        if (OVRInput.Get(OVRInput.Button.Three))
+        {
+            videoPlayer.playbackSpeed *= 2;
+        }
+        
+        if (OVRInput.Get(OVRInput.Button.Four))
+        {
+            videoPlayer.playbackSpeed *= 0.5f;
         }
 
 	}
