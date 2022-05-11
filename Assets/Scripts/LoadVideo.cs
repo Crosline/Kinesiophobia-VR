@@ -32,7 +32,7 @@ public class LoadVideo : MonoBehaviour {
 		
 		if (!_isPlaying) return;
 
-        if (OVRInput.Get(OVRInput.Button.One))
+        if (OVRInput.GetDown(OVRInput.Button.One))
         {
             if (!videoPlayer.isPaused)
                 videoPlayer.Pause();
@@ -40,17 +40,17 @@ public class LoadVideo : MonoBehaviour {
                 videoPlayer.Play();
         }
 
-        if (OVRInput.Get(OVRInput.Button.Two))
+        if (OVRInput.GetDown(OVRInput.Button.Two))
         {
             SceneManager.LoadScene("Scenes/MainMenu");
         }
         
-        if (OVRInput.Get(OVRInput.Button.Three))
+        if (OVRInput.GetDown(OVRInput.Button.Three))
         {
             videoPlayer.playbackSpeed *= 2;
         }
         
-        if (OVRInput.Get(OVRInput.Button.Four))
+        if (OVRInput.GetDown(OVRInput.Button.Four))
         {
             videoPlayer.playbackSpeed *= 0.5f;
         }
