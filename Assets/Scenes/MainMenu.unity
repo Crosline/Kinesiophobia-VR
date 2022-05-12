@@ -1081,11 +1081,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: -159.00003, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: -161, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.07714844, y: 0.20947266, z: 0, w: 0}
+  savedTextUV0: {x: 0.07714844, y: 0.4189453, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: -164.00003, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: -166, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2485,7 +2485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 185.99997, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 134.00005, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2734,6 +2734,9 @@ MonoBehaviour:
   worldSpaceMouseSensitivity: 1
   usedHand: 0
   pointerTransformOverride: {fileID: 0}
+  TouchControllerTransform: {fileID: 0}
+  InteractionButton: -1
+  oculusCameraRig: {fileID: 0}
 --- !u!114 &400832693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3073,7 +3076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: -0.000019073486, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 234.00002, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 3839, y: 2159.4375}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3096,7 +3099,7 @@ MonoBehaviour:
   interactable: 1
   blocksRaycasts: 1
   forceUseBoxCollider: 1
-  angle: 66
+  angle: 55
   preserveAspect: 1
   vertAngle: 90
   ringFill: 0.5
@@ -3904,7 +3907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: -436.00003, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: -466, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7400,11 +7403,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: 190.99997, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: 139.00005, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5253906, y: 0, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.3310547, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -7796,11 +7799,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: -431.00003, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: -461, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0.9450981, g: 0.2392157, b: 0.67058825, a: 1}
-  savedTextUV0: {x: 0.15039062, y: 0.24414062, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.083984375, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -12594,7 +12597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000010383356806, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0021972656
+      value: 0.0029296875
       objectReference: {fileID: 0}
     - target: {fileID: 224000011063755118, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -12622,7 +12625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000012931849942, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0036621094
+      value: 0.00592041
       objectReference: {fileID: 0}
     - target: {fileID: 224000013440901968, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -14394,11 +14397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 86.99999, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 472.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1310.8, y: 331.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.14648438, y: 0.08300781, z: 0, w: 0}
+  savedTextUV0: {x: 0.29296875, y: 0.16601562, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1895935711
 MonoBehaviour:
@@ -14589,7 +14592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1602.0001, y: -720.00006, z: 0.0000667572}
+  savedPos: {x: 1602.0001, y: -486.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 196.4, y: 196.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -15729,7 +15732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1602.0001, y: -720.00006, z: 0.0000667572}
+  savedPos: {x: 1602.0001, y: -486.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 400, y: 400}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
