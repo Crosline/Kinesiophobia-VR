@@ -287,8 +287,8 @@ MonoBehaviour:
   savedPos: {x: 738, y: -77.799995, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 462.8, y: 68.600006}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.8564453, y: 0.18701172, z: 0, w: 0}
+  savedColor: {r: 1, g: 0, b: 0, a: 1}
+  savedTextUV0: {x: 0.9589844, y: 0.5419922, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &32715828
 MonoBehaviour:
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1408,7 +1408,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5410156, y: 0.2763672, z: 0, w: 0}
+  savedTextUV0: {x: 0.24316406, y: 0.73828125, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &285319927
 MonoBehaviour:
@@ -1759,7 +1759,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.14355469, y: 0.35595703, z: 0, w: 0}
+  savedTextUV0: {x: 0.5488281, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &307368009
 MonoBehaviour:
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.171875, y: 0.40527344, z: 0, w: 0}
+  savedTextUV0: {x: 0.09765625, y: 0.8496094, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &321718750
 MonoBehaviour:
@@ -2640,7 +2640,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.44433594, y: 0.35888672, z: 0, w: 0}
+  savedTextUV0: {x: 0.35058594, y: 0.6347656, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &391196031
 MonoBehaviour:
@@ -4547,8 +4547,8 @@ MonoBehaviour:
   savedPos: {x: -514.4001, y: 32.300037, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 470.4, y: 115.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.3779297, y: 0.43652344, z: 0, w: 0}
+  savedColor: {r: 1, g: 0.6650944, b: 0.88564205, a: 1}
+  savedTextUV0: {x: 0.19433594, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &661926170
 MonoBehaviour:
@@ -4563,7 +4563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6650944, b: 0.88564205, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6929,7 +6929,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 574.3, y: 184}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.2705078, y: 0.43164062, z: 0, w: 0}
+  savedTextUV0: {x: 0.43945312, y: 0.8251953, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &930229379
 MonoBehaviour:
@@ -7407,7 +7407,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.3310547, z: 0, w: 0}
+  savedTextUV0: {x: 0.23339844, y: 0.3564453, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -7803,7 +7803,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0.9450981, g: 0.2392157, b: 0.67058825, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.083984375, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.2939453, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -8251,8 +8251,8 @@ MonoBehaviour:
   savedPos: {x: 738, y: 32.300037, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 462.8, y: 115.3}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.3779297, y: 0.43652344, z: 0, w: 0}
+  savedColor: {r: 0.9751682, g: 0.6933962, b: 1, a: 1}
+  savedTextUV0: {x: 0.19433594, y: 0.5, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1267298426
 MonoBehaviour:
@@ -8267,7 +8267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9751682, g: 0.6933962, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9946,7 +9946,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.3359375, z: 0, w: 0}
+  savedTextUV0: {x: 0.9248047, y: 0, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1523624879
 MonoBehaviour:
@@ -10356,8 +10356,8 @@ MonoBehaviour:
   savedPos: {x: -514.4001, y: -77.799995, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 470.4, y: 68.600006}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.37597656, y: 0.2602539, z: 0, w: 0}
+  savedColor: {r: 1, g: 0, b: 0, a: 1}
+  savedTextUV0: {x: 0.69140625, y: 0.33007812, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1533897013
 MonoBehaviour:
@@ -10372,7 +10372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11663,7 +11663,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 2350.1, y: 79.3}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
-  savedTextUV0: {x: 0.0146484375, y: 0.033203125, z: 0, w: 0}
+  savedTextUV0: {x: 0, y: 0.6933594, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1693569956
 MonoBehaviour:
@@ -12597,7 +12597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000010383356806, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0029296875
+      value: 0.0028076172
       objectReference: {fileID: 0}
     - target: {fileID: 224000011063755118, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -12625,7 +12625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000012931849942, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00592041
+      value: 0.0009765625
       objectReference: {fileID: 0}
     - target: {fileID: 224000013440901968, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -13418,7 +13418,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 762.69995, y: 210.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.3984375, z: 0, w: 0}
+  savedTextUV0: {x: 0.115234375, y: 0.22558594, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1784505625
 MonoBehaviour:
