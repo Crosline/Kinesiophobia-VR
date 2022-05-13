@@ -1081,11 +1081,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: -161, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: -393.00003, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.07714844, y: 0.4189453, z: 0, w: 0}
+  savedTextUV0: {x: 0.49414062, y: 0.08203125, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &205244066
 MonoBehaviour:
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: -166, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: -398.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2485,7 +2485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 134.00005, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: -98.00001, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3006,8 +3006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 234.00003}
-  m_SizeDelta: {x: 467.06152, y: 673.771}
+  m_AnchoredPosition: {x: -0, y: 2}
+  m_SizeDelta: {x: 12.7, y: 340.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &485433534
 RectTransform:
@@ -3031,7 +3031,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.02, y: 1.04}
-  m_SizeDelta: {x: 3371.9385, y: 1485.6665}
+  m_SizeDelta: {x: 3854.1895, y: 2139.8914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &487986016
 MonoBehaviour:
@@ -3076,9 +3076,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 234.00002, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 22.999983, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 3839, y: 2159.4375}
+  savedRectSize: {x: 3866.8894, y: 2480.6914}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
   savedFill: 1
@@ -3112,7 +3112,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498792530}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba045fa4943b5428da9ef8508c8ada33, type: 3}
   m_Name: 
@@ -3907,7 +3907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: -466, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: -698.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 739.2, y: 200}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7403,11 +7403,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: 139.00005, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: -93.000015, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.23339844, y: 0.3564453, z: 0, w: 0}
+  savedTextUV0: {x: 0.57128906, y: 0.22460938, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1036056880
 MonoBehaviour:
@@ -7602,8 +7602,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 234.00003}
-  m_SizeDelta: {x: 467.06152, y: 673.771}
+  m_AnchoredPosition: {x: -0, y: 2}
+  m_SizeDelta: {x: 12.7, y: 340.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1130401405
 GameObject:
@@ -7799,11 +7799,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -18.000002, y: -461, z: 0.0000667572}
+  savedPos: {x: -18.000002, y: -693.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 703.10004, y: 154}
   savedColor: {r: 0.9450981, g: 0.2392157, b: 0.67058825, a: 1}
-  savedTextUV0: {x: 0.5, y: 0.2939453, z: 0, w: 0}
+  savedTextUV0: {x: 0.5, y: 0.18652344, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1167468864
 MonoBehaviour:
@@ -8816,7 +8816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 168514.03, y: 73257.164, z: 0.0000667572}
+  savedPos: {x: 168272.9, y: 72930.055, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 3371.9385, y: 1485.6665}
   savedColor: {r: 0.16470589, g: 0.16470589, b: 0.16470589, a: 0.8}
@@ -10131,8 +10131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 234}
-  m_SizeDelta: {x: 467.06152, y: 673.771}
+  m_AnchoredPosition: {x: -0, y: 2}
+  m_SizeDelta: {x: 12.7, y: 340.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1527928643
 MonoBehaviour:
@@ -12597,7 +12597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000010383356806, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0028076172
+      value: 0.0061035156
       objectReference: {fileID: 0}
     - target: {fileID: 224000011063755118, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -12625,7 +12625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224000012931849942, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0009765625
+      value: 0.0053710938
       objectReference: {fileID: 0}
     - target: {fileID: 224000013440901968, guid: 9ea2606f8fddead46aabb7adb3d8d434, type: 3}
       propertyPath: m_AnchorMax.x
@@ -14397,11 +14397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -0.00000022351742, y: 472.00003, z: 0.0000667572}
+  savedPos: {x: -0.00000022351742, y: 239.99998, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 1310.8, y: 331.8}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.29296875, y: 0.16601562, z: 0, w: 0}
+  savedTextUV0: {x: 0.63671875, y: 0.6508789, z: 0, w: 0}
   savedFill: 0
 --- !u!114 &1895935711
 MonoBehaviour:
@@ -14592,7 +14592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1602.0001, y: -486.00003, z: 0.0000667572}
+  savedPos: {x: 1602.0001, y: -718.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 196.4, y: 196.4}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -14844,8 +14844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 234.00003}
-  m_SizeDelta: {x: 467.06152, y: 673.771}
+  m_AnchoredPosition: {x: -0, y: 2}
+  m_SizeDelta: {x: 12.7, y: 340.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964927421
 MonoBehaviour:
@@ -15732,7 +15732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1602.0001, y: -486.00003, z: 0.0000667572}
+  savedPos: {x: 1602.0001, y: -718.00006, z: 0.0000667572}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 400, y: 400}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
